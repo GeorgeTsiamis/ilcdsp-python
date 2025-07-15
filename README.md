@@ -35,7 +35,7 @@ python evaluate_ilcdsp.py \
 Path to your edge list (plain text or .gz).
 
 - labels
- Path to your community file (each line: space‑separated node IDs).
+Path to your community file (each line: space‑separated node IDs).
  
 - gz
 Add this flag if your input files are gzip‑compressed.
