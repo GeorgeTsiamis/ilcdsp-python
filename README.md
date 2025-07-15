@@ -17,3 +17,9 @@ Install dependencies with:
 pip install networkx
 # pip install python-igraph   # if you plan to use igraph
 
+python evaluate_ilcdsp.py \
+  --graph PATH/TO/EDGES_FILE \
+  --labels PATH/TO/LABELS_FILE \
+  [--gz] \
+  [--seeds N] \
+  [--strategy random|maxdeg]
