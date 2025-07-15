@@ -15,7 +15,7 @@ Install dependencies with:
 
 ```bash
 pip install networkx
-# pip install python-igraph   # if you plan to use igraph```
+# pip install python-igraph   # if you plan to use igraph~~~
 
 
 ## Usage
