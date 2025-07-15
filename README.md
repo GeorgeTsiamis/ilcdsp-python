@@ -16,3 +16,24 @@ Install dependencies with:
 ```bash
 pip install networkx
 # pip install python-igraph   # if you plan to use igraph
+
+## Usage
+
+Clone the repo and run:
+
+```bash
+python evaluate_ilcdsp.py \
+  --graph PATH/TO/EDGES_FILE \
+  --labels PATH/TO/LABELS_FILE \
+  [--gz] \
+  [--seeds N] \
+  [--strategy random|maxdeg]
+--graph: path to your edge list (plain text or .gz)
+
+--labels: path to your community file (each line: space‑separated node IDs)
+
+--gz: add if files are gzipped
+
+--seeds: number of seed nodes (default: 20)
+
+--strategy: "random" or "maxdeg"
