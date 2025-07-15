@@ -15,7 +15,8 @@ Install dependencies with:
 
 ```bash
 pip install networkx
-# pip install python-igraph   # if you plan to use igraph
+# pip install python-igraph   # if you plan to use igraph```
+
 
 ## Usage
 
@@ -27,7 +28,7 @@ python evaluate_ilcdsp.py \
   --labels PATH/TO/LABELS_FILE \
   [--gz] \
   [--seeds N] \
-  [--strategy random|maxdeg]
+  [--strategy random|maxdeg]```
 
 
 #Arguments
