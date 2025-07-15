@@ -28,12 +28,20 @@ python evaluate_ilcdsp.py \
   [--gz] \
   [--seeds N] \
   [--strategy random|maxdeg]
---graph: path to your edge list (plain text or .gz)
 
---labels: path to your community file (each line: space‑separated node IDs)
 
---gz: add if files are gzipped
+#Arguments
+--graph
+Path to your edge list (plain text or .gz).
 
---seeds: number of seed nodes (default: 20)
+--labels
+Path to your community file (each line: space‑separated node IDs).
 
---strategy: "random" or "maxdeg"
+--gz
+Add this flag if your input files are gzip‑compressed.
+
+--seeds
+Number of seed nodes to sample (default: 20).
+
+--strategy
+Seed selection strategy, either random or maxdeg.
